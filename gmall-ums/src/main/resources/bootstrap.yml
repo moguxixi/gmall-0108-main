@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gmall_ums
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: e3507d98-34d5-4fb0-bde9-213987a226f0
+        group: dev
+        file-extension: yml
